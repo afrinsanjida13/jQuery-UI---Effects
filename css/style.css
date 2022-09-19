@@ -1,0 +1,185 @@
+ /*fonts start */
+@font-face{
+	src: url(../fonts/montserrat/montserrat-regular.ttf);
+	font-family: 'Montserrat', sans-serif;
+
+}
+@font-face{
+	src: url(../fonts/montserrat/montserrat-medium.ttf);
+	font-family: 'Montserrat', sans-serif;
+
+}
+@font-face{
+	src: url(../fonts/montserrat/montserrat-bold.ttf);
+	font-family: 'Montserrat', sans-serif;
+
+}
+@font-face{
+	src: url(../fonts/montserrat/montserrat-semibold.ttf);
+	font-family: 'Montserrat', sans-serif;
+
+}
+@font-face{
+	src: url(../fonts/montserrat/montserrat-bolditalic.ttf);
+	font-family: 'Montserrat', sans-serif;
+
+}
+@font-face{
+	src: url(../fonts/audiowide/audiowide-regular.ttf);
+	font-family: 'Audiowide', cursive;
+
+}
+/* fonts end */
+/* common start */
+
+body{
+  padding: 30px 0;
+  background-color: gainsboro;
+}
+h1{
+  padding-bottom: 30px;
+}
+h2{
+  margin-bottom: 30px;
+}
+
+/*add class demo start*/
+
+.add_class{
+	padding: 30px 0;
+	background-color: ghostwhite;
+}
+.toggler { 
+  width: 500px; 
+  height: 200px; 
+  position: relative; 
+}
+#button {
+  margin-top: 80px; 
+  padding: .5em 1em; 
+  text-decoration: none; 
+  }
+#effect { 
+  width: 450px;
+  height: 250px;
+  padding: 1em; 
+  border: 1px solid #000; 
+  background: gainsboro; 
+  color: #333; 
+}
+.newClass { 
+  text-indent: 40px; 
+  letter-spacing: .4em; 
+  width: 410px; 
+  height: 140px; 
+  padding: 30px; 
+  margin: 10px; 
+  font-size: 1.1em; 
+}
+
+/*remove class demo start*/
+.remove_class{
+  padding: 30px 0;
+}
+.toggler { 
+  width: 500px; 
+  height: 200px; 
+  position: relative; 
+}
+#button2 { 
+  padding: .5em 1em; 
+  text-decoration: none; 
+}
+#effect2 { 
+  position: relative;  
+  width: 285px;
+  height: 140px;  
+  padding: 1em;  
+  letter-spacing: 0; 
+  font-size: 1.2em; 
+  border: 1px solid #000; 
+  background: #eee; 
+  color: #333; 
+}
+.newClass { 
+  text-indent: 40px; 
+  letter-spacing: .4em; 
+  width: 410px; 
+  height: 100px; 
+  padding: 30px; 
+  margin: 10px; 
+  font-size: 1.6em; 
+}
+
+/*switch class demo start*/
+.switch_class{
+  padding: 30px 0;
+  background-color: ghostwhite;
+}
+.toggler { 
+  width: 500px; 
+  height: 200px; 
+  position: relative; 
+}
+#button3 {
+  margin-top: 80px; 
+  padding: .5em 1em; 
+  text-decoration: none; 
+}
+#effect3 { 
+  position: relative;
+  width: 500px;
+  height: 250px;
+  border: 1px solid #000; 
+  background: gainsboro;  
+}
+.newClass { 
+  width: 240px;  
+  padding: 1em; 
+  letter-spacing: 0; 
+  margin: 0; 
+}
+.anotherNewClass { 
+  text-indent: 40px; 
+  letter-spacing: .2em; 
+  width: 410px; 
+  height: 100px; 
+  padding: 30px; 
+  margin: 10px; 
+  font-size: 1.1em; 
+}
+
+/*toggle class demo start*/
+.toggle_class{
+  padding: 30px 0;
+}
+.toggler { 
+  width: 500px; 
+  height: 200px; 
+  position: relative; 
+}
+#button4 {
+  margin-top: 50px; 
+  padding: .5em 1em; 
+  text-decoration: none; 
+}
+#effect4 {
+  position: relative;  
+  width: 300px;
+  height: 200px;  
+  padding: 1em; 
+  letter-spacing: 0; 
+  font-size: 1.2em; 
+  border: 1px solid #000; 
+  background: #eee; 
+  color: #333; 
+}
+.newClass { 
+  text-indent: 40px; 
+  letter-spacing: .4em; 
+  width: 410px; 
+  height: 100px; 
+  padding: 30px; 
+  margin: 10px; 
+  font-size: 1.6em; 
+}
